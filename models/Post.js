@@ -29,7 +29,11 @@ Post.init(
                     key: 'id'
                 }
             }           
-        }
+        },
+        // user: {
+        //     type: DataTypes.STRING,
+        //     allowNull: false,
+        // },
     },
     {
         sequelize,

@@ -10,7 +10,7 @@ router.use('/', homeRoutes);
 
 // captures endpoint requests that do not exist
 router.use((req, res) => {
-    res.status(404).json({message: "nothing to see here!"}).end();
+    res.status(404).json({message: "Nothing to see here!"}).end();
 });
 
 module.exports = router;

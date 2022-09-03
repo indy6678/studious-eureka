@@ -3,7 +3,7 @@ const sequelize = require('../config/connection');
 const {Post, User, Comment} = require('../models')
 
 router.get('/', (req, res) => {
-    res.send({
+    res.send('homepage',{
         id: 1,
         title: "Why MVC is so important",
         created_at: new Date(),
